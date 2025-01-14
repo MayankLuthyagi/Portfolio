@@ -1,9 +1,9 @@
 import '../src/index.css';
 export const Center = () => {
     return (
-        <div className="flex-1 flex m-10 justify-center">
+        <div className="flex-1 flex">
             <div
-                className="w-auto h-auto border-2 border-white rounded-xl grey-color justify-start items-start text-white p-8"
+                className="w-auto border-2 border-white rounded-xl grey-color justify-start items-start text-[15px] text-white px-8 pt-8"
             >
                 <header>
                     <h1 className="font-bold">Hey, I'm Mayank</h1>

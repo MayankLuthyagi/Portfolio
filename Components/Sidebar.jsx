@@ -3,8 +3,8 @@ import '../src/App.css';
 
 export const Sidebar = () => {
     return (
-        <div className="flex w-80 justify-center rounded-xl border-2 grey-color h-auto">
-            <div className="flex flex-col items-center m-8 h-auto">
+        <div className="flex w-80 justify-center border-r-2 border-b-2 rounded-br grey-color">
+            <div className="flex flex-col items-center m-8 h-full">
                 <div>
                     <img
                         src="/passport.png"
