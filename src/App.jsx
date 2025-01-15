@@ -14,7 +14,7 @@ const App = () => {
                 <div className="lg:block hidden lg:h-full">
                     <Sidebar/>
                 </div>
-                <div className="flex justify-start md:justify-ce    nter md:mt-4 md:mx-56">
+                <div className="flex justify-start md:justify-center md:mt-4 md:mx-56">
                     <Center/>
                 </div>
             </div>
