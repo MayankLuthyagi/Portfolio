@@ -43,19 +43,19 @@ export const Center = () => {
                 <section id="projects">
                     <h2 className="font-bold md:text-[18px] mb-2">Side Projects</h2>
                     <li className="text-gray-400">
-                        <a className="text-white font-bold underline" href="https://job-finder.streamlit.app/">
-                            Job Finder{' '}
-                        </a>
                         Developed a web application that scrapes jobs from multiple platforms
+                        {' '}
+                        <a className="text-white font-bold underline" href="https://job-finder.streamlit.app/">
+                            Job Finder
+                        </a>
                     </li>
                     <li className="text-gray-400">
+                        Automated messaging to multiple WhatsApp communities using Selenium and JSON
+                        {' '}
                         <a
                             className="text-white font-bold underline"
                             href="https://github.com/MayankLuthyagi/WhatsApp-Json-Message-Sender-Using-Selenium"
-                        >
-                            WhatsAppBot
-                        </a>{' '}
-                        Automated messaging to multiple WhatsApp communities using Selenium and JSON.
+                        >WhatsAppBot</a>
                     </li>
                 </section>
                 <br/>
@@ -65,16 +65,15 @@ export const Center = () => {
                         <li>
                             Java Spring Framework 6 with Spring Boot 3{' '}
                             <a
-                                className="text-white font-bold underline"
+                                className="text-white font-bold"
                                 href="https://udemy-certificate.s3.amazonaws.com/image/UC-f8f63f34-c12c-48c8-a722-3ad9deffc5e0.jpg"
-                            >
-                                (Udemy)
+                            >(<span className="underline">Udemy</span>)
                             </a>
                         </li>
                         <li>
                             Solved 500+ coding challenges across multiple platforms{' '}
-                            <a className="text-white font-bold underline" href="https://codolio.com/profile/MayankSingh">
-                                (Codolio)
+                            <a className="text-white font-bold" href="https://codolio.com/profile/MayankSingh">
+                                (<span className="underline">codolio</span>)
                             </a>
                         </li>
                     </div>
