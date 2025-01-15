@@ -3,7 +3,7 @@ export const Center = () => {
     return (
         <div className="flex-1 flex">
             <div
-                className="w-auto border-2 border-white rounded-xl grey-color justify-start items-start text-[15px] text-white px-8 pt-8"
+                className="w-auto text-[8px] p-6 md:border-2 md:border-white md:rounded-xl grey-color md:text-[15px] text-white md:px-8 md:pt-8"
             >
                 <header>
                     <h1 className="font-bold">Hey, I'm Mayank</h1>

@@ -3,7 +3,7 @@ import '../src/App.css';
 
 export const Sidebar = () => {
     return (
-        <div className="flex w-80 justify-center border-r-2 border-b-2 rounded-br grey-color">
+        <div className="flex md:w-80 sm:w-5 justify-center border-r-2 border-b-2 rounded-br grey-color">
             <div className="flex flex-col items-center m-8 h-full">
                 <div>
                     <img

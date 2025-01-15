@@ -10,14 +10,14 @@ const App = () => {
             <div>
                 <Navbar/>
             </div>
-        <div className="flex flex-1 h-full">
-            <div className="flex">
-                <Sidebar/>
+            <div className="flex flex-1 h-full">
+                <div className="lg:block hidden">
+                    <Sidebar/>
+                </div>
+                <div className="flex justify-start md:justify-center md:mt-4 md:mx-56">
+                    <Center/>
+                </div>
             </div>
-            <div className="flex justify-center mt-4 mx-56">
-                <Center/>
-            </div>
-        </div>
         </div>
     );
 };
