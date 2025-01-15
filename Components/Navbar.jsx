@@ -10,7 +10,7 @@ export const Navbar = () => {
                         <img
                         src="/Hamburger-Menu.jpg"
                         alt=""
-                        className="size-8 rounded"
+                        className="md:size-8 size-6 rounded"
                     />
                 </button>
             </div>
