@@ -44,7 +44,11 @@ export const Center = () => {
                         </div>
                     </div>
                     <div className="text-gray-400 ml-1">
-                        <li>Completed MCA from JCBose UST, Faridabad</li>
+                        <li>Completed MCA from JCBose UST, Faridabad. {' '}
+                            <a href="https://drive.google.com/file/d/17CBZRiRpyleXnAUdqGIKh88ywfPdmgBY/view?usp=drive_link"
+                               target="_blank"
+                               className="font-bold underline text-white">Resume</a>
+                        </li>
                         <li>Aspiring Full-Stack Java Developer with a passion for software development</li>
                         <li>
                             Currently developing{' '}
